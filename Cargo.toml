@@ -1,8 +1,11 @@
 [package]
 name = "scratch_genetic"
 version = "22.5.16"
+description = "A from-scratch genetic-algorithm library used in my march-madness-predictor project"
 edition = "2021"
 license = "GPL"
+license_file = "LICENSE"
+source = "git+https://github.com/blueOkiris/scratch_genetic"
 
 [dependencies]
 rand = "0.8.5"
