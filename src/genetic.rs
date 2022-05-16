@@ -10,8 +10,6 @@ use tokio::{
 };
 use crate::network::Network;
 
-/// See more documentation on github
-
 /// Generates a vector of Networks to be used with other scratch_genetic functions
 /// 
 /// Network is private because you won't need to manually mess with it, just need to pass to funcs.
@@ -173,7 +171,7 @@ pub async fn load_and_predict(file_name: &'static str, input_bits: &Vec<u8>) -> 
     predictor.result(input_bits).await
 }
 
-/// Test once and export model
+/// Export model
 pub async fn export_model(file_name: &'static str, pop: &Network) {
     pop.save_model(file_name).await;
 }
