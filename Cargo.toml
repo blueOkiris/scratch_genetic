@@ -1,0 +1,17 @@
+[package]
+name = "scratch_genetic"
+version = "22.5.16"
+edition = "2021"
+license = "GPL"
+
+[dependencies]
+rand = "0.8.5"
+clap = { version = "3.1.5", features = [ "cargo" ] }
+csv = "1.1.6"
+serde = { version = "1.0", features = [ "derive" ] }
+futures = "0.3.21"
+tokio = { version = "1.17.0", features = [ "full" ] }
+
+[lib]
+name = "scratch_genetic"
+path = "src/lib.rs"
