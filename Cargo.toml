@@ -1,6 +1,6 @@
 [package]
 name = "scratch_genetic"
-version = "22.5.17"
+version = "22.5.23"
 description = "A from-scratch genetic-algorithm library used in my march-madness-predictor project"
 edition = "2021"
 license = "GPL-3.0"
